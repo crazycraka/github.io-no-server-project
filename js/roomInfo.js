@@ -3,9 +3,9 @@
  */
 
 
+angular.module('housingApp').directive('roomInfo', function(){
 
-angular.module('housingApp').directive('roomInfo', function($scope){
-
+    return {}
 
 
 })

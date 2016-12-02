@@ -2,13 +2,12 @@
  * Created by scott on 12/1/16.
  */
 
-angular.module('housingApp').directive('houseListDir', function($scope){
+angular.module('housingApp').directive('houseListDir', function(){
 
     return {
-        templateUrl: '',
-        link: function (scope, element, attributes) {
-            scope.test = "angular is working, and first directive is connected";
-            console.log('houselistdir is connected');
+        templateUrl: './html/houseList.html',
+        scope: {
+            apartments: '='
         }
     }
 });
