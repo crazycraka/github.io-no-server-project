@@ -5,7 +5,7 @@
 angular.module('housingApp').directive('houseListDir', function(){
 
     return {
-        templateUrl: 'https://crazycraka.github.io/no-server-project/html/houseList.html',
+        templateUrl: './html/houseList.html',
         scope: {
             apartments: '='
         }
