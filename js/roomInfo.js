@@ -4,7 +4,7 @@
 
 
 
-app.directive('roomInfo', function($scope){
+angular.module('housingApp').directive('roomInfo', function($scope){
 
 
 
