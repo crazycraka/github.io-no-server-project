@@ -4,10 +4,9 @@
 	<base href="/no-server-project/">
 	<meta charset="UTF-8">
 	<title>Housing Management</title>
-	<script
-			src="https://code.jquery.com/jquery-3.1.1.js"
-			integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
-			crossorigin="anonymous"></script>
+	<!--JQUERY CDN-->
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -17,22 +16,18 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+	<!--CSS-->
 	<link rel="stylesheet" type="text/css" href="./styles/main.css">
+	<link rel="stylesheet" type="text/css" href="./styles/animationCheatSheet.css">
 
-</head>
+
 
 <body ng-controller="mainCtrl" ng-model="housing">
 
 
-
 	<house-list-dir apartments="housing"></house-list-dir>
 
-
-
-
-
-
-
+	 <input ng-model="addApartment" placeholder="add Apartment Name"><button ng-click="addNewApartment(addApartment)">New Apartment</button>
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
@@ -41,5 +36,6 @@
 	<script src="./js/houseListDir.js"></script>
 	<script src="./js/roomListDir.js"></script>
 	<script src="./js/roomInfo.js"></script>
+	</head>
 </body>
 </html>

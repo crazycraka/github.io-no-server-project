@@ -1,8 +1,11 @@
 
 <div>Theres more stuff in here than anywhere else in the world</div>
 <div ng-model="apartments" ng-repeat="apartment in apartments" class="house-list">
-	<div>{{apartment.address}}</div>
+	<div>{{apartment.apt}}</div>
+	<button >more...</button>
+	<!--{{apartment}}-->
 
 	<room-list-dir rooms="apartment"></room-list-dir>
+
 
 </div>

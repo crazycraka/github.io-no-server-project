@@ -1,8 +1,34 @@
 body{
-    background-color: cornflowerblue;
+    background-color: #80ff69;
 }
 
 .house-list {
     border: solid black 2px;
     margin: 5px;
+}
+
+.house-list:hover {
+    background-color: lightgray;
+}
+
+.removed {
+
+    -webkit-animation: disapear 1s;
+    animation: disapear 1s;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.reveal {
+    visibility: visible;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
 }

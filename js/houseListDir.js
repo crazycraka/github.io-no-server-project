@@ -7,7 +7,13 @@ angular.module('housingApp').directive('houseListDir', function(){
     return {
         templateUrl: './html/houseList.html',
         scope: {
-            apartments: '='
+            apartments: '=',
+            houseListClick: '@'
+        },
+        link: function(scope, element, attributes) {
+
         }
+
     }
+
 });

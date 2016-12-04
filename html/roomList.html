@@ -1,8 +1,7 @@
-<p>other stuff from roomlist</p>
 
-<div ng-repeat="room in rooms.rooms">
-	{{room.roomId}}<br>
-	Number of rooms: {{room.roomCount}}, Number of bathrooms: {{room.bathCount}}, Kitchen inlcuded: {{room.kitchen}}<br>
-	Occupied: {{room.occupied}}<br>
-	Notes: {{room.notes}}
-</div>
+<!--<div ng-repeat="room.roomId in rooms"></div>-->
+ <br>in roomlist.html<div>{{rooms}}</div>
+<br><input placeholder="room id" ng-model="roomId"> <button ng-click="addRoom(rooms, roomId)">Add New Room</button>
+
+
+
