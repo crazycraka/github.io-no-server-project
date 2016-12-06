@@ -22,12 +22,21 @@ body{
     background-color: rgba(203, 195, 211, 0.88);
 }
 
+<<<<<<< HEAD
 /*.aptInput {*/
     /*position: relative;*/
     /*right: 50%;*/
     /*bottom: 50%;*/
     /*text-align: end;*/
 /*}*/
+=======
+.aptInput {
+    position: relative;
+    right: 50%;
+    bottom: 50%;
+    text-align: end;
+}
+>>>>>>> 71ef9b3985105cb3cbbf66a99f4de87f6e733b41
 
 .room-wrapper {
     /*width: 20%;*/
