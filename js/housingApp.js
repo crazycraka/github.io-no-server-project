@@ -4,16 +4,15 @@
 var app = angular.module('housingApp', [ 'ngAnimate', 'ngMap', 'ui.router'] );
 
 app.config( function( $stateProvider, $urlRouterProvider){
-    $urlRouterProvider.otherwise('home');
+    $urlRouterProvider.otherwise('/');
 
     $stateProvider
 
         .state( 'home', {
             url: '/home',
-            templateUrl: ''
+            templateUrl: './html/blankFile.html'
         })
         .state('googleMap', {
-
             url: '/googleMap',
             templateUrl: './html/googlemaps.html'
         });

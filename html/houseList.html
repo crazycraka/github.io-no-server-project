@@ -1,9 +1,10 @@
 
-<div>Theres more stuff in here than anywhere else in the world</div>
 <div ng-model="apartments" ng-repeat="apartment in apartments track by $index" class="house-list">
 	<div>{{apartment.apt}}</div>
 	<div>{{apartment.aptAddress}}</div>
 
+	<a ui-sref="googleMap">show map</a>...
+	<div ui-view></div>
 
 	<room-list-dir rooms="apartment"></room-list-dir><br>
 </div>
