@@ -3,5 +3,7 @@
 <div ng-model="apartments" ng-repeat="apartment in apartments track by $index" class="house-list">
 	<div>{{apartment.apt}}</div>
 	<div>{{apartment.aptAddress}}</div>
+
+
 	<room-list-dir rooms="apartment"></room-list-dir><br>
 </div>

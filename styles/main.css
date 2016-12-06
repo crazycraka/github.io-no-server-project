@@ -4,6 +4,11 @@ body{
     background-size: cover;
 }
 
+.test {
+    color: white;
+    font-size: 30px;
+}
+
 .main-wrapper {
     margin: 0 auto;
     width: 75%;
@@ -34,6 +39,11 @@ body{
     border-radius: 10px;
     text-align: center;
 
+}
+
+.map-class {
+    width: 300px;
+    height: 300px;
 }
 
 .room-info {
