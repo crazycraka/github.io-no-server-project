@@ -23,9 +23,9 @@ body{
 }
 
 .aptInput {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    right: 50%;
+    bottom: 50%;
     text-align: end;
 }
 
