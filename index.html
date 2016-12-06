@@ -32,8 +32,10 @@
 		<house-list-dir apartments="housing"></house-list-dir><br>
 
 
-		<input ng-model="addApartment" placeholder="add Apartment Name"><input ng-model="addAddress" placeholder="address"><br>
-		<button ng-click="addNewApartment(addApartment, addAddress)">New Apartment</button>
+		<div class="aptInput">
+			<input ng-model="addApartment" placeholder="add Apartment Name"><input ng-model="addAddress" placeholder="address">
+			<button ng-click="addNewApartment(addApartment, addAddress)">New Apartment</button>
+		</div>
 	</div>
 
 

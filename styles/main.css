@@ -1,7 +1,8 @@
 body{
     background-image: url('../media/4515522628_a8f807fb6c_b.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
+    background-color: #0e90d2;
 }
 
 .main-wrapper {
@@ -20,6 +21,14 @@ body{
 .house-list:hover {
     background-color: rgba(203, 195, 211, 0.88);
 }
+
+.aptInput {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: end;
+}
+
 .room-wrapper {
     /*width: 20%;*/
     margin: 5px auto;
@@ -33,6 +42,10 @@ body{
     border-radius: 10px;
     text-align: center;
 
+}
+
+.room-inputs {
+    margin: auto;
 }
 
 .map-class {

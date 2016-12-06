@@ -15,15 +15,13 @@ show all rooms <input type="checkbox" ng-model="roomSlide">
    </div>
  </div>
 
-
-
-
-<br><input placeholder="room id" ng-model="roomId">
-    <input placeholder=" # rooms" ng-model="roomCount">
-    <input placeholder="# bath" ng-model="bathCount">
- 	<input placeholder="kitchen appliances" ng-model="kitchenApp">
-
- <button ng-click="addRoom(rooms, roomId, roomCount, bathCount, kitchenApp)">Add New Room</button>
+<div class="room-inputs">
+	<input placeholder="room id" ng-model="roomId">
+	<input placeholder=" # rooms" ng-model="roomCount">
+	<input placeholder="# bath" ng-model="bathCount">
+	<input placeholder="kitchen appliances" ng-model="kitchenApp">
+	<button ng-click="addRoom(rooms, roomId, roomCount, bathCount, kitchenApp)">Add New Room</button><br>
+</div>
 
 
 
