@@ -29,9 +29,10 @@
 
 <body ng-controller="mainCtrl" ng-model="housing">
 	<div class="main-wrapper">
-		<house-list-dir apartments="housing"></house-list-dir>
+		<house-list-dir apartments="housing"></house-list-dir><br>
 
-		<input ng-model="addApartment" placeholder="add Apartment Name"><input ng-model="addAddress" placeholder="address">
+
+		<input ng-model="addApartment" placeholder="add Apartment Name"><input ng-model="addAddress" placeholder="address"><br>
 		<button ng-click="addNewApartment(addApartment, addAddress)">New Apartment</button>
 	</div>
 
