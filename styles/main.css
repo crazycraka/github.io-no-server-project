@@ -22,12 +22,12 @@ body{
     background-color: rgba(203, 195, 211, 0.88);
 }
 
-.aptInput {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    text-align: end;
-}
+/*.aptInput {*/
+    /*position: relative;*/
+    /*right: 50%;*/
+    /*bottom: 50%;*/
+    /*text-align: end;*/
+/*}*/
 
 .room-wrapper {
     /*width: 20%;*/
