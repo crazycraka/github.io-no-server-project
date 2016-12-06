@@ -1,7 +1,27 @@
 
-<!--<div ng-repeat="room.roomId in rooms"></div>-->
- <br>in roomlist.html<div>{{rooms}}</div>
-<br><input placeholder="room id" ng-model="roomId"> <button ng-click="addRoom(rooms, roomId)">Add New Room</button>
+show all rooms <input type="checkbox" ng-model="roomSlide">
+
+ <div ng-repeat='room in rooms.rooms track by $index'>
+   <div class="room-wrapper">
+	   <div class="room-container">
+		   Room Number :{{room.roomId}}
+			<input type="checkbox" ng-model="roomSlide">
+		   <div class="room-info" ng-show="roomSlide">
+			   Room Info:<br>
+			   rooms : {{room.roomInfo.roomCount}}, bath : {{room.roomInfo.bathCount}}<br>
+			   kitchen Appliances: {{room.roomInfo.kitchenApp}}
+		   </div>
+	   </div>
+   </div>
+ </div>
+
+
+<br><input placeholder="room id" ng-model="roomId">
+    <input placeholder=" # rooms" ng-model="roomCount">
+    <input placeholder="# bath" ng-model="bathCount">
+ 	<input placeholder="kitchen appliances" ng-model="kitchenApp">
+
+ <button ng-click="addRoom(rooms, roomId, roomCount, bathCount, kitchenApp)">Add New Room</button>
 
 
 

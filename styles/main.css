@@ -1,28 +1,42 @@
 body{
-    background-color: #80ff69;
+    background-image: url('../media/4515522628_a8f807fb6c_b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.main-wrapper {
+    margin: 0 auto;
+    width: 75%;
+}
 .house-list {
     border: solid black 2px;
-    margin: 5px;
+    margin: 10px auto;
+    background-color: rgba(182, 176, 192, 0.54);
+    padding: 10px;
+    border-radius: 20px;
+
+
 }
 
 .house-list:hover {
-    background-color: lightgray;
+    background-color: rgba(203, 195, 211, 0.88);
+}
+.room-wrapper {
+    width: 20%;
+    margin: 5px auto;
+
 }
 
-.removed {
+.room-container {
+    border: solid black 2px;
+    background-color: aliceblue;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
 
-    -webkit-animation: disapear 1s;
-    animation: disapear 1s;
 }
 
-.hidden {
-    visibility: hidden;
-}
-
-.reveal {
-    visibility: visible;
+.room-info {
 }
 
 .red {
@@ -32,3 +46,19 @@ body{
 .blue {
     color: blue;
 }
+
+.room-slide {
+    height: 0;
+    transition: height .5s;
+}
+
+/*GOOGLE MAPS STYLING*/
+
+/*.map {*/
+    /*height: 200px;*/
+    /*width: 200px;*/
+    /*position: inherit;*/
+    /*right: 0;*/
+    /*display: inline-block;*/
+/*}*/
+
